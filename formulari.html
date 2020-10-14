@@ -1,0 +1,40 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Fdormulari</title>
+    </head>
+    <body>
+        <div style="margin: 30px 10%;">
+        <h3>Formulario Gerard Tinoco </h3>
+            <form enctype="multipart/form-data" action="formulari2.php" method="post" id="myform" name="myform">
+
+                <label>Nombre</label> <input type="text" value="" size="30" maxlength="100" name="nombre" id="" /><br /><br />
+
+                <input type="radio" name="sexe" value="hombre" /> hombre
+                <input type="radio" checked="checked" name="sexe" value="mujer" /> mujer<br /><br />
+
+                <input type="checkbox" name="licencia" value="carnet de coche" /> carnet de coche
+                <input type="checkbox" checked="checked" name="licencia" value="carnet de motos" /> carnet de motos<br /><br />
+
+                <label>Macarrones</label>
+                <select name="macarrones" id="">
+                    <optgroup label="macarrones">   
+                        <option value="bolognesa" selected="selected">bolognesa</option>
+                    </optgroup>
+                    <optgroup label="macarrones" >
+                        <option value="carbonara">carbonara</option>
+                    </optgroup>
+                </select><br /><br />
+
+                <textarea name="texto" id="" rows="3" cols="30">como te ha ido el dia</textarea> <br /><br />
+
+                Añadir imagen: <input type="file" name="archivo" id="archivo" accept=".pdf,.jpg,.png" multiple /><br /><br />
+
+                <button id="mysubmit" type="submit">envia</button><br /><br />
+
+            </form>
+        </div>
+    </body>
+</html>
