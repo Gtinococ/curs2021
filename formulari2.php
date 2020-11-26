@@ -1,8 +1,7 @@
 <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    //Processar les dades
     
-        echo  "Benvingut"." ".$_REQUEST["nombre"]."<br>";
+        echo  "Benvingut"." ".$_REQUEST["nombre"]."<br>"."<br>";
         echo "Datos personales: "."<br>";
 
         if(isset($_REQUEST["sexe"])){
